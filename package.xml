@@ -1,0 +1,27 @@
+<package>
+  <name>geographiclib_conversions</name>
+  <version>0.1.0</version>
+  <description>
+
+     Wrapper library for Geographiclib
+
+  </description>
+  <author>Amber Garage</author>
+  <author>Roman Fedorenko</author>
+  <maintainer email="frontwise@gmail.com">Roman Fedorenko</maintainer>
+
+  <license>BSD</license>
+  <url>http://ros.org/wiki/geographiclib_conversions</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <test_depend>rosunit</test_depend>
+
+</package>
