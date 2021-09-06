@@ -10,7 +10,7 @@
   <author>Roman Fedorenko</author>
   <maintainer email="frontwise@gmail.com">Roman Fedorenko</maintainer>
 
-  <license>BSD</license>
+  <license>GPLv3</license>
   <url>http://ros.org/wiki/geographiclib_conversions</url>
 
   <buildtool_depend>catkin</buildtool_depend>
