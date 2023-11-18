@@ -1,7 +1,7 @@
 include(ExternalProject)
 
 ExternalProject_Add(geographiclib-external
-  GIT_REPOSITORY https://git.code.sf.net/p/geographiclib/code
+  GIT_REPOSITORY https://github.com/geographiclib/geographiclib.git
   GIT_TAG v1.48
   #URL https://downloads.sourceforge.net/project/geographiclib/distrib/GeographicLib-1.48.tar.gz
   CMAKE_ARGS -DGEOGRAPHICLIB_LIB_TYPE=STATIC -DCMAKE_POSITION_INDEPENDENT_CODE=ON
